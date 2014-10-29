@@ -7,4 +7,3 @@ class Items{
 	size = itemSize;
     }
 }
-
