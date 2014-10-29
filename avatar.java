@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
-class avatar{
+class Avatar{
     private String name;
     private ArrayList<String> unfinishedCourses = new ArrayList<String>();
     private ArrayList<String> finishedCourses = new ArrayList<String>();
