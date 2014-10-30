@@ -3,19 +3,14 @@ import java.lang.String;
 public class Book extends Items {
     private String title;
     private String author;
-    private Int HP;
-
-    public void setTitle(String title) {
+    private int HP;
+    public void Book (int size, String title, String author, int HP){
+        Items.setSize(size);
         this.title = title;
-    }
-
-    public void setAuthor(String author) {
         this.author = author;
-    }
-
-    public void setHP(Int HP) {
         this.HP = HP;
     }
+
 
     public String getTitle() {
         return title;
@@ -25,7 +20,7 @@ public class Book extends Items {
         return author;
     }
 
-    public Int getHP() {
+    public int getHP() {
         return HP;
     }
 }
