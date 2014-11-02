@@ -6,8 +6,8 @@ class Avatar{
     private ArrayList<String> unfinishedCourses = new ArrayList<String>();
     private ArrayList<String> finishedCourses = new ArrayList<String>();
     private int HP = 60;
-    public void setName(String inputName){
-	name = inputName;
+    public void Avatar(name){
+        this.name = name;
     }
     public String getName(){
 	return name;
